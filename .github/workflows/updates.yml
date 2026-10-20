@@ -15,14 +15,14 @@ jobs:
       - name: Checkout profile
         uses: actions/checkout@v4
 
-      - name: Fetch public product changelogs
+      - name: Fetch product changelogs through GitHub API
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          curl --fail --silent --show-error --location \
-            https://raw.githubusercontent.com/jeanvicenc4/KAZER/main/CHANGELOG.md \
-            --output /tmp/kazer-changelog.md
-          curl --fail --silent --show-error --location \
-            https://raw.githubusercontent.com/jeanvicenc4/Kzcoder/main/CHANGELOG.md \
-            --output /tmp/kzcoder-changelog.md
+          gh api repos/jeanvicenc4/KAZER/contents/CHANGELOG.md \
+            --jq .content | tr -d '\n' | base64 --decode > /tmp/kazer-changelog.md
+          gh api repos/jeanvicenc4/Kzcoder/contents/CHANGELOG.md \
+            --jq .content | tr -d '\n' | base64 --decode > /tmp/kzcoder-changelog.md
 
       - name: Render updates feed into README
         run: |
