@@ -17,8 +17,12 @@ jobs:
 
       - name: Fetch product changelogs through GitHub API
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.KZCODER_READ_TOKEN }}
         run: |
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "::error::Missing repository secret KZCODER_READ_TOKEN. Add a fine-grained token with Contents: Read-only on jeanvicenc4/Kzcoder."
+            exit 1
+          fi
           gh api repos/jeanvicenc4/KAZER/contents/CHANGELOG.md \
             --jq .content | tr -d '\n' | base64 --decode > /tmp/kazer-changelog.md
           gh api repos/jeanvicenc4/Kzcoder/contents/CHANGELOG.md \
