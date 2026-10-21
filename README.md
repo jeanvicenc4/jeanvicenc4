@@ -16,8 +16,8 @@
 <p align="center">
   <a href="#-sobre-mim">IDENTIDADE</a> ·
   <a href="#-arsenal">ARSENAL</a> ·
-  <a href="#-projetos-em-campo">PROJETOS</a> ·
-  <a href="#-domain-expansion-code-mode">DOMAIN EXPANSION</a> ·
+  <a href="#️-projetos-em-campo">PROJETOS</a> ·
+  <a href="#️-domain-expansion-code-mode">DOMAIN EXPANSION</a> ·
   <a href="#-quests">QUESTS</a>
 </p>
 
