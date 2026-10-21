@@ -1,137 +1,131 @@
-<p align="center">
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/identity-hero.gif">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/identity-hero.gif">
-    <img src="./assets/identity-hero.gif" alt="Hero pixel-art cinematográfico de Jeanvicenc4 com operador abstrato, grid 3D, monograma J e status online" width="1200">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <img src="./assets/hero-dark.svg" alt="Banner cyber-anime original de jeanvicenc4: construtor de agentes de IA, engenheiro de prompts e dev mobile" width="100%">
   </picture>
-</p>
+</div>
+
+<div align="center">
+  <a href="https://github.com/jeanvicenc4"><img src="https://img.shields.io/badge/GitHub-jeanvicenc4-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub jeanvicenc4"></a>
+  <a href="https://instagram.com/0neajx"><img src="https://img.shields.io/badge/Instagram-0neajx-111111?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram 0neajx"></a>
+</div>
+
+<p align="center"><b>Construo agentes, automações e produtos digitais direto do celular.</b><br>Transformo ideias em ferramentas úteis para resolver problemas reais.</p>
 
 <p align="center">
-  <strong>JEANVICENC4</strong><br>
-  <sub>human systems / agents / interfaces / shipped in public</sub>
+  <a href="#-sobre-mim">IDENTIDADE</a> ·
+  <a href="#-arsenal">ARSENAL</a> ·
+  <a href="#-projetos-em-campo">PROJETOS</a> ·
+  <a href="#-domain-expansion-code-mode">DOMAIN EXPANSION</a> ·
+  <a href="#-quests">QUESTS</a>
 </p>
+
+---
+
+### 🧠 Sobre mim
+
+Sou **Jeanvicenc4**: criador de agentes de IA, engenheiro de prompts e desenvolvedor focado em automações e produtos digitais. Construo principalmente pelo celular, explorando ferramentas fortes para tirar ideias do papel, resolver problemas reais e criar soluções com potencial de gerar receita.
+
+Meu foco é combinar **IA + software + execução** — do prompt ao produto, com curiosidade de builder e mentalidade de quem prefere publicar algo funcional a ficar só no plano.
+
+### 🧰 Arsenal
+
+*HUD de habilidades — áreas de atuação, não uma escala de proficiência.*
+
+| SLOT | SKILL |
+|:--|:--|
+| `01 / INTELLIGENCE` | IA · Agentes · Prompt engineering |
+| `02 / AUTOMATION` | Automação · n8n · APIs |
+| `03 / BUILD` | Python · JavaScript |
+| `04 / MOBILE` | Android · desenvolvimento mobile pelo celular |
+| `05 / DEPLOY` | Produtos e ferramentas digitais |
 
 <p align="center">
-  <a href="#01--identity">IDENTITY</a> ·
-  <a href="#03--kazer">KAZER</a> ·
-  <a href="#04--kzcoder">KZCODER</a> ·
-  <a href="#08--transmission-log">LOG</a>
+  <img src="https://img.shields.io/badge/AI-AGENTS-111111?style=for-the-badge&logo=probot&logoColor=white" alt="AI Agents">
+  <img src="https://img.shields.io/badge/PROMPT-ENGINEERING-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Prompt Engineering">
+  <img src="https://img.shields.io/badge/PYTHON-111111?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JAVASCRIPT-111111?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript">
+  <img src="https://img.shields.io/badge/APIs-111111?style=for-the-badge&logo=fastapi&logoColor=white" alt="APIs">
+  <img src="https://img.shields.io/badge/AUTOMATION-111111?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automation">
+  <img src="https://img.shields.io/badge/n8n-111111?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
+  <img src="https://img.shields.io/badge/ANDROID-111111?style=for-the-badge&logo=android&logoColor=white" alt="Android">
 </p>
 
-<p align="center"><img src="./assets/signal.gif" alt="Linha de sinal animada em vermelho e verde" width="960"></p>
+### ⚙️ Projetos em campo
 
-## [ 01 // IDENTITY ]
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jeanvicenc4/KAZER"><b>🟥 KAZER</b></a><br>
+      Espaço web/PWA de conversa com IA, pesquisa, workspace e integrações. Projeto em desenvolvimento ativo.<br><br>
+      <a href="https://github.com/jeanvicenc4/KAZER"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jeanvicenc4&repo=KAZER&theme=transparent&hide_border=true&title_color=ef4444&text_color=d4d4d8&icon_color=ffffff" alt="Card do repositório KAZER"></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jeanvicenc4/Kzcoder"><b>⬛ Kzcoder</b></a><br>
+      Central self-hosted para controlar agentes de programação e automações, com backends locais, remotos e cloud.<br><br>
+      <a href="https://github.com/jeanvicenc4/Kzcoder"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jeanvicenc4&repo=Kzcoder&theme=transparent&hide_border=true&title_color=ef4444&text_color=d4d4d8&icon_color=ffffff" alt="Card do repositório Kzcoder"></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <a href="https://github.com/jeanvicenc4/KAZER.V1"><b>⬜ KAZER.V1</b></a> · Repositório separado da versão V1: plataforma de IA para pesquisa, execução e criação.
+    </td>
+  </tr>
+</table>
 
-I turn ideas into operating software.
+<p align="center"><a href="https://github.com/jeanvicenc4?tab=repositories"><b>VER REPOSITÓRIOS ↗</b></a></p>
 
-No generic project wall. Just two systems I am actually building, a public surface, and the machinery behind it.
+### 📡 Telemetria
 
 <p align="center">
-  <img src="./assets/access-card.svg" alt="Credencial visual de operador humano Jeanvicenc4 com clearance Build Ship e status online" width="960">
+  <a href="https://github.com/jeanvicenc4"><img height="165" src="https://github-readme-stats.vercel.app/api?username=jeanvicenc4&show_icons=true&hide_border=true&bg_color=0d0d0f&title_color=f4f4f5&icon_color=ef4444&text_color=d4d4d8&rank_icon=github" alt="Estatísticas públicas do GitHub de jeanvicenc4"></a>
+  <a href="https://github.com/jeanvicenc4"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeanvicenc4&layout=compact&hide_border=true&bg_color=0d0d0f&title_color=f4f4f5&text_color=d4d4d8" alt="Linguagens públicas dos repositórios de jeanvicenc4"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/jeanvicenc4"><img src="https://streak-stats.demolab.com?user=jeanvicenc4&theme=dark&hide_border=true&background=0d0d0f&ring=ef4444&fire=ef4444&currStreakLabel=f4f4f5" alt="Sequência pública de contribuições de jeanvicenc4"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/jeanvicenc4"><img src="https://github-profile-trophy.vercel.app/?username=jeanvicenc4&theme=onestar&no-frame=true&no-bg=true&margin-w=6" alt="Troféus do perfil GitHub de jeanvicenc4"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/jeanvicenc4"><img src="https://github-readme-activity-graph.vercel.app/graph?username=jeanvicenc4&bg_color=0d0d0f&color=f4f4f5&line=ef4444&point=ffffff&area=true&hide_border=true" alt="Gráfico de atividade pública do GitHub de jeanvicenc4"></a>
 </p>
 
-## [ 02 // SYSTEM BOOT ]
+<sub>Os cards dependem de serviços externos e refletem dados públicos do GitHub; se algum ficar indisponível, os links acima continuam levando aos repositórios.</sub>
+
+### ⚔️ Domain Expansion: Code Mode
 
 <p align="center">
-  <img src="./assets/system-boot.svg" alt="Terminal animado inicializando jeanvicenc4.sys e mostrando status online" width="960">
+  <img src="./assets/domain-expansion.svg" alt="Animação original de batalha cyber-anime: silhueta de um builder cercada por energia vermelha e branca, dentro de um domínio digital" width="100%">
 </p>
 
-## [ 03 // KAZER ]
+<p align="center"><b>DOMAIN: CODE MODE</b> · <code>IDEA → BUILD → SHIP</code><br><sub>Energia original feita em SVG para este perfil — sem personagens ou arte de Jujutsu Kaisen.</sub></p>
 
-> **The workspace layer.** Conversa, pesquisa e workspace em um espaço web/PWA em português.
+### 🐍 Contribution snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeanvicenc4/jeanvicenc4/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeanvicenc4/jeanvicenc4/output/github-contribution-grid-snake.svg">
+  <img alt="Animação da cobra percorrendo o mapa público de contribuições do GitHub" src="https://raw.githubusercontent.com/jeanvicenc4/jeanvicenc4/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+### 🎯 Quests
+
+- `QUEST 01` Criar agentes de IA que resolvam problemas reais.
+- `QUEST 02` Automatizar processos usando n8n e APIs.
+- `QUEST 03` Construir apps e ferramentas direto do celular.
+- `QUEST 04` Criar produtos digitais úteis e sustentáveis.
+- `QUEST 05` Aprofundar engenharia de prompts e sistemas com IA.
+
+### 📬 Contato
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/kazer-flagship.gif">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/kazer-flagship.gif">
-    <img src="./assets/kazer-flagship.gif" alt="Showcase animado do KAZER com terminal, robô pixel-art, bloco isométrico e partículas vermelhas" width="960">
-  </picture>
+  <a href="https://github.com/jeanvicenc4"><img src="https://img.shields.io/badge/GitHub-Jeanvicenc4-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://instagram.com/0neajx"><img src="https://img.shields.io/badge/Instagram-0neajx-111111?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
 </p>
-
-[**Open KAZER →**](https://kazer.vercel.app) · [repository and docs](https://github.com/jeanvicenc4/KAZER)
-
-- **Brain server-side:** conversation routing between configured providers, with server-side validation.
-- **Research + attachments:** web research and source synthesis, with documented flows for images, PDF, DOCX and text/code.
-- **Connected workspace:** tasks, MCP connectors, GitHub OAuth, Google Drive and PWA installation.
-
-`STATUS / PUBLISHED` · `SCOPE / WEB + PWA` · `LICENSE / PROPRIETARY CODE`
-
-## [ 04 // KZCODER ]
-
-> **The control layer.** A self-hosted developer control center for coding agents and automations.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/kzcoder-flagship.gif">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/kzcoder-flagship.gif">
-    <img src="./assets/kzcoder-flagship.gif" alt="Showcase animado do Kzcoder com robô-agente, cubo 3D e conexões para backends local, remoto e cloud" width="960">
-  </picture>
-</p>
-
-[**Open Kzcoder →**](https://github.com/jeanvicenc4/Kzcoder) · [backend documentation](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)
-
-- **Self-host your way:** local, Docker, VM or company infrastructure.
-- **Switch backends:** move between local, remote and cloud agents from the same interface.
-- **Automate the work:** workflows that integrate with Slack, GitHub and Linear through schedules or webhooks.
-
-`STATUS / BETA` · `SCOPE / SELF-HOSTED` · `AGENTS / OPENHANDS · CLAUDE CODE · CODEX · GEMINI · PI · OPENCODE`
-
-## [ 05 // ARSENAL ]
-
-The stack is not decoration. These are the pieces documented around the two systems.
-
-<p align="center">
-  <img src="./assets/arsenal-orbit.svg" alt="Órbita animada com Node.js, PWA, Supabase, Docker, GitHub, MCP, ACP e VM" width="960">
-</p>
-
-## [ 06 // TELEMETRY ]
-
-<p align="center">
-  <img src="./assets/telemetry.svg" alt="Telemetria local com dois sistemas, um publicado e um beta, sem contadores externos" width="960">
-</p>
-
-<sub>02 systems. 01 published. 01 beta. No invented metrics.</sub>
-
-## [ 07 // PULSE ]
-
-<p align="center">
-  <img src="./assets/pulse.svg" alt="Grade local de atividade pública do GitHub de Jeanvicenc4 em verde sobre preto" width="900">
-</p>
-
-<sub>The pulse is generated from GitHub's public contribution calendar and refreshed by a repository workflow. It is activity, not a vanity score.</sub>
-
-## [ 08 // TRANSMISSION LOG ]
 
 <!-- UPDATES:START -->
-<details>
-<summary><strong>16.10.2026 / KAZER / PUBLIC CHANGELOG</strong></summary>
-
-- Pesquisa de 16/10/2026 em `planos/PESQUISA-2026-10-16.md`: prensa no aparelho (logo chapado em SVG com ImageTracerJS 1.2.6 Unlicense, branco transparente no canvas, duotone, DPI, molde simples de caixa, conta da vitrine com a taxa que a pessoa digita, cartaz DE/POR, monograma). README, catálogo, at…
-- Pesquisa de 15/10/2026 em `planos/PESQUISA-2026-10-15.md`: gaveta no aparelho (HEIC só se o navegador já abre, fotos num PDF com pdf-lib MIT, cópia sem GPS com exifr MIT só para ler, tarja de CPF, foto 3×4, cartão .vcf sem hospedar, cartaz de avaliação, obrigado do pedido). README, catálogo, ateliê…
-- Pesquisa de 14/10/2026 em `planos/PESQUISA-2026-10-14.md`: mesa do designer no aparelho (assinatura de e-mail em HTML, certificado de oficina, rampa OKLCH com culori MIT, folha de gráfica com sangria, grade 3×3 sem publicar, prancha local, quanto cobrar, vale da banca). README, catálogo, ateliê, ca…
-
-</details>
-
-<details>
-<summary><strong>2025.05.11 / 1.0.0-alpha.2 / KZCODER / PUBLIC CHANGELOG</strong></summary>
-
-- Initial npm package release of `@openhands/agent-canvas`
-- CLI entry point (`npx @openhands/agent-canvas`) to run full stack locally
-- Library build mode with component barrel exports
-
-</details>
-
-[read KAZER changelog](https://github.com/jeanvicenc4/KAZER/blob/main/CHANGELOG.md) · [read Kzcoder changelog](https://github.com/jeanvicenc4/Kzcoder/blob/main/CHANGELOG.md)
-
-<sub>Feed generated by GitHub Actions from the public changelogs. No generated claims.</sub>
 <!-- UPDATES:END -->
 
-<p align="center">
-  <img src="./assets/incident-board.svg" alt="Incident board animado mostrando KAZER e Kzcoder atravessando ideia, build e superfície pública" width="960">
-</p>
-
-## [ 09 // SIGNAL ]
-
-<p align="center"><img src="./assets/signal.gif" alt="Sweep de sinal animado em vermelho e verde" width="960"></p>
-
-<p align="center"><strong>Built in the dark. Shipped in public.</strong><br><sub>systems over noise</sub></p>
+<p align="center"><sub>Built in the dark. Shipped in public. · Systems over noise.</sub></p>
