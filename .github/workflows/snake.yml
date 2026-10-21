@@ -1,4 +1,4 @@
-name: Refresh profile pulse
+name: Generate contribution snake
 
 on:
   schedule:
@@ -9,58 +9,25 @@ permissions:
   contents: write
 
 jobs:
-  pulse:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout profile
+      - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Render public contribution pulse
+      - name: Generate light and dark contribution snakes
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Publish generated SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
         env:
-          USERNAME: ${{ github.repository_owner }}
-        run: |
-          curl --fail --silent --show-error --location \
-            "https://github.com/users/${USERNAME}/contributions" \
-            --output /tmp/contributions.html
-          python3 - <<'PY'
-          import html
-          import os
-          import re
-          from pathlib import Path
-
-          source = Path('/tmp/contributions.html').read_text(errors='ignore')
-          username = os.environ['USERNAME']
-          levels = [int(value) for value in re.findall(r'data-level="([0-4])"', source)]
-          levels = (levels[-364:] + [0] * 364)[:364]
-          colors = ['#111111', '#193b27', '#1f6b3a', '#2eac5b', '#39FF88']
-          cells = []
-          for index, level in enumerate(levels):
-              column, row = index % 52, index // 52
-              cells.append(
-                  f'<rect x="{28 + column * 16}" y="{52 + row * 16}" '
-                  f'width="11" height="11" rx="2" fill="{colors[level]}"/>'
-              )
-          svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" role="img" aria-labelledby="t d">
-          <title id="t">Jeanvicenc4 contribution pulse</title>
-          <desc id="d">Local GitHub contribution surface generated from the public contribution calendar.</desc>
-          <rect width="900" height="190" fill="#050505" stroke="#444"/>
-          <text x="28" y="28" fill="#F5F5F5" font-family="monospace" font-size="13" letter-spacing="3">PULSE / PUBLIC ACTIVITY SURFACE</text>
-          <text x="28" y="43" fill="#aaa" font-family="monospace" font-size="10">SOURCE: github.com/users/''' + html.escape(username) + '''/contributions</text>
-          ''' + ''.join(cells) + '''
-          <g font-family="monospace" font-size="10" fill="#aaa"><text x="28" y="178">LESS</text><text x="798" y="178">MORE</text></g>
-          <rect x="738" y="171" width="10" height="10" fill="#111"/><rect x="754" y="171" width="10" height="10" fill="#193b27"/><rect x="770" y="171" width="10" height="10" fill="#1f6b3a"/><rect x="786" y="171" width="10" height="10" fill="#2eac5b"/><rect x="802" y="171" width="10" height="10" fill="#39FF88"/>
-          </svg>'''
-          Path('assets/pulse.svg').write_text(svg)
-          PY
-
-      - name: Commit pulse when changed
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add assets/pulse.svg
-          if git diff --cached --quiet; then
-            echo "Pulse unchanged"
-          else
-            git commit -m "chore(profile): refresh public activity pulse"
-            git push
-          fi
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
