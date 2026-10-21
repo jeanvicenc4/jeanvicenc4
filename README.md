@@ -85,12 +85,6 @@ Meu foco é combinar **IA + software + execução** — do prompt ao produto, co
 <p align="center">
   <a href="https://github.com/jeanvicenc4"><img src="https://streak-stats.demolab.com?user=jeanvicenc4&theme=dark&hide_border=true&background=0d0d0f&ring=ef4444&fire=ef4444&currStreakLabel=f4f4f5" alt="Sequência pública de contribuições de jeanvicenc4"></a>
 </p>
-<p align="center">
-  <a href="https://github.com/jeanvicenc4"><img src="https://github-profile-trophy.vercel.app/?username=jeanvicenc4&theme=onestar&no-frame=true&no-bg=true&margin-w=6" alt="Troféus do perfil GitHub de jeanvicenc4"></a>
-</p>
-<p align="center">
-  <a href="https://github.com/jeanvicenc4"><img src="https://github-readme-activity-graph.vercel.app/graph?username=jeanvicenc4&bg_color=0d0d0f&color=f4f4f5&line=ef4444&point=ffffff&area=true&hide_border=true" alt="Gráfico de atividade pública do GitHub de jeanvicenc4"></a>
-</p>
 
 <sub>Os cards dependem de serviços externos e refletem dados públicos do GitHub; se algum ficar indisponível, os links acima continuam levando aos repositórios.</sub>
 
